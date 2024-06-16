@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bavina Inuganti - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floral-background">
+        <section id="welcome">
+            <h1>Bavina Inuganti</h1>
+            <p>Hi, I'm Bavina Inuganti, a Computer Science and Data Science student.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hey! My name is Bavina Inuganti, and I am an incoming sophomore at Rutgers University - New Brunswick majoring in computer science and data science. I am looking to use teamwork and people skills to apply experience in youth leadership in a technology environment, and apply my skills in real world applications. I plan to focus on Machine Learning and AI, and Finance, and begin a non-profit with an emphasis on uplifting low-income communities and minority groups into the workforce.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="content">
+                        <p><strong>Rutgers University</strong><br>Bachelor of Science in Computer Science & Data Science<br>GPA: 3.96<br>May 2027</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="content">
+                        <p><strong>South Brunswick High School</strong><br>High School Diploma<br>GPA: 4.3<br>2019 - 2023</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="content">
+                        <h3>Tip Top Technologies SWE Intern</h3>
+                        <p>June 2024</p>
+                        <p> Developed an algorithm in Python that indicates how likely a current event is to trend upwards, downwards, or flat, and created statistical models with R for data analysis & visualization to discover patterns in 
+                            event progressions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="content">
+                        <h3>Forethought - AI & Deep Learning Researcher</h3>
+                        <p>March 2024 - Present</p>
+                        <p>Developed novel models in CV in the domains of unsupervised and semi-supervised with a particular focus on Digit-Five datasets, and fine tuned large language models like GPT for text generation. Implemented Deep Learning algorithms tailored for processing neural networks and mapping gestures to the acoustic space for artificial voice synthesis to discover vocal communication pathways for those with speaking disabilities. 
+                            </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="content">
+                        <h3>GNOME Foundation - Open Source Contributor</h3>
+                        <p>March 2024 - Present</p>
+                        <p>Analyzed and optimized the Extension app using C, Valgrind, and GNOME’s Perf-Tools, identified areas that were consuming excessive CPU cycles and memory, and utilized GLib to improve memory management. Implemented a feedback mechanism to gather user input and design the recommendation engine, and conducted unit tests using GLib’s testing framework and libraries with C to cover critical functionalities and edge cases.
+                            </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="content">
+                        <h3>Women in Computer Science - Executive Member & Committee Representative</h3>
+                        <p>September 2023 - March 2024</p>
+                        <p>Designed and implemented HTML/CSS and JavaScript for the WICS website to ensure a user-friendly interface by integrating events calendar, RSVP & contact forms, newsletter, resource library, and social media accounts.
+                            Hosted and coordinated New Jersey’s largest women & non-binary centric hackathon at Rutgers University
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-item">
+                    <div class="circle">
+                        <h3>Weather App</h3>
+                        <p>Developed a weather app using Java and Android Studio to provide real-time weather information based on user location by integrating weather API to gather and display accurate forecasts, temperatures, and conditions.</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="circle">
+                        <h3>GPS App</h3>
+                        <p>Created a GPS app using Java with Google Maps API for location tracking by implementing GPS navigation features and geolocation services to view current location, track routes, and receive individual directions.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="circle">
+                        <h3>Music Image Recognition App</h3>
+                        <p>Developed a music app using Python, Flask framework, and REST API to recognize music album cover images, provide relevant information about the artist, and play one of the songs from that identified album.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="circle">
+                        <h3>Minesweeper Game</h3>
+                        <p>Designed a Minesweeper game using C# and the Unity game development framework to implement an algorithm for random mine placements, tile interactions, and mine counter, including visual and audio cues for mine distribution.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:bavina.inuganti@gmail.com" method="post" enctype="text/plain">
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
